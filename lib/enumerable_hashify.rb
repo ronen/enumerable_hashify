@@ -1,0 +1,3 @@
+module EnumerableHashify
+  # Your code goes here...
+end
