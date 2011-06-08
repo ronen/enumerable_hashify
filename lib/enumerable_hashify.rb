@@ -1,3 +1,1 @@
-module EnumerableHashify
-  # Your code goes here...
-end
+require 'enumerable_hashify/enumerable.rb'

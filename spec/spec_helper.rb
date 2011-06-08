@@ -1,10 +1,7 @@
-require 'bundler'
-begin
-  Bundler.setup
-rescue Bundler::BundlerError => e
-  $stderr.puts e.message
-  $stderr.puts "Run `bundle install` to install missing gems"
-  exit e.status_code
+if RUBY_VERSION > "1.9"
+  require 'simplecov'
+  require 'simplecov-gem-adapter'
+  SimpleCov.start 'gem'
 end
 
 require 'rspec'

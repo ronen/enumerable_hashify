@@ -7,10 +7,10 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.date = '2011-06-08'
   s.authors = ['Ronen Barzel']
-  s.email = 'barzel@adobe.com'
+  s.email = 'ronen@barzel.org'
   s.homepage = 'http://github.com/ronen/enumerable_hashify'
-  s.summary = %Q{TODO: one-line summary of your gem}
-  s.description = %Q{TODO: detailed description of your gem}
+  s.summary = %Q{Defines Enumerable#hashify}
+  s.description = %Q{Defines Enumerable#hashify, which creates a hash with the enumerable's items as keys and with given constant value or with block-computed values}
   s.extra_rdoc_files = [
     'LICENSE',
     'README.rdoc',
@@ -28,7 +28,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'bundler'
   s.add_development_dependency 'bueller'
-  s.add_development_dependency 'rake'
-  s.add_development_dependency 'rcov'
+  s.add_development_dependency 'rake', "0.8.7"
+  s.add_development_dependency 'simplecov'
+  s.add_development_dependency 'simplecov-gem-adapter'
 end
 

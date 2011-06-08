@@ -1,6 +1,28 @@
 = enumerable_hashify
 
-Description goes here.
+Defines Enumerable#hashify, which creates a hash with the enumerable's
+items as keys and with given constant value or with block-computed values:
+
+  [1,2,3,4].hashify                 --> {1=>true, 2=>true, 3=>true, 4=>true}
+  [1,2,3,4].hashify("a")            --> {1=>"a", 2=>"a", 3=>"a", 4=>"a"}
+  [1,2,3,4].hashify{|n| "a" * n}    --> {1=>"a", 2=>"aa", 3=>"aaa", 4=>"aaaa"}
+
+== Tested on
+
+MRI 1.8.7, MRI 1.9.2
+
+== Naming and Historical Note
+
+I've been using this in my projects for years with the name
+Enumerable#to_h, and figured it was time to make a gem since nobody else
+seems to have.
+
+But there's been a bunch of discussion online as to what the proper
+semantics that 'to_h' should have.  I recently found a proposal from back
+in 2001 that suggested this same functionality with the name
+hashify[http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-talk/11195]
+which seemed pretty good to me.  I don't know why that proposal wasn't
+adopted as part of ruby.  But here it is as a gem.
 
 == Note on Patches/Pull Requests
  
