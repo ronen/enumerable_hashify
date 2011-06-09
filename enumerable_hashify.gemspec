@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name = 'enumerable_hashify'
   s.version = EnumerableHashify::VERSION
   s.platform = Gem::Platform::RUBY
-  s.date = '2011-06-08'
+  s.date = "2011-06-08"
   s.authors = ['Ronen Barzel']
   s.email = 'ronen@barzel.org'
   s.homepage = 'http://github.com/ronen/enumerable_hashify'
