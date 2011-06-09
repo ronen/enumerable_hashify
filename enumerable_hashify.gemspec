@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors = ['Ronen Barzel']
   s.email = 'ronen@barzel.org'
   s.homepage = 'http://github.com/ronen/enumerable_hashify'
-  s.summary = %Q{Defines Enumerable#hashify}
-  s.description = %Q{Defines Enumerable#hashify, which creates a hash with the enumerable's items as keys and with given constant value or with block-computed values}
+  s.summary = %Q{Defines Enumerable#hashify, which creates a hash whose keys are the enumerable's elements, with given or computed values.}
+  s.description = %Q{Defines Enumerable#hashify, which creates a hash with the enumerable's elements as keys and with a given constant value or with block-computed values}
   s.extra_rdoc_files = [
     'LICENSE',
     'README.rdoc',
