@@ -7,6 +7,17 @@ items as keys and with a given constant value or with block-computed values:
   [1,2,3,4].hashify("a")           --> {1=>"a", 2=>"a", 3=>"a", 4=>"a"}
   [1,2,3,4].hashify{|n| "a" * n}   --> {1=>"a", 2=>"aa", 3=>"aaa", 4=>"aaaa"}
 
+= Installation
+
+   gem install enumerable_hashify
+
+or in your Gemfile
+
+   gem "enumerable_hashify"
+
+Enumerable#hashify is now also available in the
+facets[http://rubyworks.github.com/facets/] gem.
+
 == Tested on
 
 MRI 1.8.7, MRI 1.9.2
