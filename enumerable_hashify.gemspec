@@ -27,8 +27,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'bundler'
-  s.add_development_dependency 'bueller'
-  s.add_development_dependency 'rake', "0.8.7"
+  s.add_development_dependency 'rake'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'simplecov-gem-adapter'
 end
