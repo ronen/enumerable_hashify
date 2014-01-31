@@ -11,10 +11,6 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/ronen/enumerable_hashify'
   s.summary = %Q{Defines Enumerable#hashify, which creates a hash whose keys are the enumerable's elements, with given or computed values.}
   s.description = %Q{Defines Enumerable#hashify, which creates a hash with the enumerable's elements as keys and with a given constant value or with block-computed values}
-  s.extra_rdoc_files = [
-    'LICENSE',
-    'README.rdoc',
-  ]
 
   s.required_rubygems_version = Gem::Requirement.new('>= 1.3.7')
   s.rubygems_version = '1.3.7'
