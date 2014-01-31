@@ -1,5 +1,9 @@
 # enumerable_hashify
 
+[![Gem Version](https://badge.fury.io/rb/enumerable_hashify.png)](http://badge.fury.io/rb/enumerable_hashify)
+[![Build Status](https://secure.travis-ci.org/ronen/enumerable_hashify.png)](http://travis-ci.org/ronen/enumerable_hashify)
+[![Dependency Status](https://gemnasium.com/ronen/enumerable_hashify.png)](https://gemnasium.com/ronen/enumerable_hashify)
+
 Defines Enumerable#hashify, which creates a hash with the enumerable's items
 as keys and with a given constant value or with block-computed values:
 
