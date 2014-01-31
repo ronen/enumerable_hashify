@@ -42,3 +42,7 @@ proposal wasn't adopted as part of ruby.  But here it is as a gem.
 ## Copyright
 
 Released under the MIT License.  See LICENSE for details.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ronen/enumerable_hashify/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
