@@ -24,7 +24,7 @@ Enumerable#hashify is now also available in the
 
 ## Tested on
 
-MRI 1.8.7, MRI 1.9.2
+MRI 1.8.7, MRI 1.9.3, MRI 2.0.0
 
 ## Naming and Historical Note
 
